@@ -641,6 +641,7 @@ hr {
   min-height: 581px;
   background: white;
   padding: 10px;
+  border-radius: 4px;
 }
 .button-closed {
   position: absolute;
@@ -674,4 +675,12 @@ hr {
   padding-bottom: 63px;
   padding-right: 24px;
   padding-left: 24px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  opacity: 0;
+}
+.technokriak-relative:hover .technokriak-absolute {
+  opacity: 1;
+  transform: translateX(0);
 }

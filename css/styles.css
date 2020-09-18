@@ -649,3 +649,29 @@ hr {
   overflow: hidden;
   border-radius: 20px;
 }
+.technokriak-relative {
+  position: relative;
+}
+.technokriak-absolute {
+  position: absolute;
+  top: 0px;
+
+  width: 370px;
+  height: 294px;
+
+  background: rgba(33, 150, 243, 0.9);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
